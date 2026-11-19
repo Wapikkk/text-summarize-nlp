@@ -23,10 +23,10 @@ text-summarize-nlp/
 
 | Peran | Tugas | Anggota | Branch |
 |---|---|---|---|
-| 1. Data & Preprocessing | EDA, pembersihan, split data | [Andita Tifanny] | `data` |
-| 2. Extractive | TF-IDF, TextRank, LSA | [Ali Fikri] | `extractive` |
-| 3. Abstractive | LSTM + attention, model pretrained | [Waffiq Muchlishin] | `abstractive` |
-| 4. Evaluasi & Laporan | ROUGE, analisis error, laporan | [Taharo Hafwenia] | `evaluation` |
+| 1. Data & Preprocessing | EDA, pembersihan, split data | Andita Tifanny | `data` |
+| 2. Extractive | TF-IDF, TextRank, LSA | Ali Fikri | `extractive` |
+| 3. Abstractive | LSTM + attention, model pretrained | Waffiq Muchlishin | `abstractive` |
+| 4. Evaluasi & Laporan | ROUGE, analisis error, laporan | Taharo Hafwenia | `evaluation` |
 
 ## Deskripsi Dataset
 
