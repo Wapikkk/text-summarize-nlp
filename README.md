@@ -9,7 +9,7 @@ Membandingkan pendekatan **extractive** dan **abstractive** untuk meringkas arti
 text-summarize-nlp/
 ├── notebooks/   .ipynb per job (Google Colab)
 │   ├── 01_data_preprocessing.ipynb
-│   ├── 02_extractive.ipynb
+│   ├── 02_baseline_leadk.ipynb
 │   ├── 03_abstractive.ipynb
 │   └── 04_evaluation.ipynb
 ├── src/         all code
@@ -24,8 +24,8 @@ text-summarize-nlp/
 | Peran | Tugas | Anggota | Branch |
 |---|---|---|---|
 | 1. Data & Preprocessing | EDA, pembersihan, split data | Andita Tifanny | `data` |
-| 2. Extractive | TF-IDF, TextRank, LSA | Ali Fikri | `extractive` |
-| 3. Abstractive | LSTM + attention, model pretrained | Waffiq Muchlishin | `abstractive` |
+| 2. Baseline Leadk | Konfigurasi Leadk | Ali Fikri | `baseline_leadk` |
+| 3. Abstractive | seq2seq GRU + attention, model pretrained (mt5-small & IndoBART) | Waffiq Muchlishin | `abstractive` |
 | 4. Evaluasi & Laporan | ROUGE, analisis error, laporan | Taharo Hafwenia | `evaluation` |
 
 ## Deskripsi Dataset
